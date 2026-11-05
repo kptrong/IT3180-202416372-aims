@@ -8,6 +8,7 @@ class DigitalVideoDisc:
         self.length = length
         self.cost = cost
 
+
     def __str__(self):
         return (f"DVD - {self.title} - {self.category} - "
                 f"{self.director} - {self.length}: {self.cost:.2f} $")
