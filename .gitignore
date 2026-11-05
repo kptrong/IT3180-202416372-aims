@@ -4,11 +4,13 @@ __pycache__/
 .venv/
 venv/
 
+
 # IDE / hệ điều hành
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+
 
 # Sản phẩm build / đóng gói
 dist/
