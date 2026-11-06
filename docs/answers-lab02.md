@@ -29,3 +29,11 @@ Theo quy tắc của bài, chỉ viết lại lịch sử đối với commit ch
 - `topic/use-case-diagram`: bổ sung tài liệu use case.
 
 Đây là quy ước đặt tên và tổ chức công việc, không phải hai loại nhánh có cơ chế khác nhau trong Git. Cả hai đều nên có một mục đích rõ ràng, tồn tại ngắn hạn và được tích hợp vào nhánh chính qua Pull Request.
+
+## 4. Ghi chú thực hành cá nhân
+
+Tôi thực hiện Lab 02 một mình, sử dụng hai bản clone của cùng kho GitHub để mô phỏng hai người phát triển: bản chính và `aims-dev2`.
+
+Nhánh chính của kho là `main`, tương ứng với `master` trong tài liệu. Các thay đổi được đưa vào nhánh chính qua Pull Request, không yêu cầu approval từ partner.
+
+Tôi tự kiểm tra nội dung trong Files changed, chạy chương trình và sửa trên cùng nhánh để cập nhật PR. Do không có partner, tôi không thực hiện được đầy đủ lượt review “Request changes → sửa → Approve” từ một người khác.
