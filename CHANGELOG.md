@@ -6,6 +6,8 @@
 
 ### Added
 
+- Thêm Cart.sort_by_title() để sắp xếp giỏ hàng theo tiêu đề tăng dần.
+- Thêm Cart.sort_by_cost() để sắp xếp giỏ hàng theo giá tăng dần.
 - Thêm `Cart.print_cart()` để hiển thị tổng tiền và xử lý giỏ hàng trống.
 - Thêm `search_by_title()` để tìm DVD theo tiêu đề.
 - Thêm `Cart.total_cost_with_discount()` để tính số tiền sau giảm giá.
