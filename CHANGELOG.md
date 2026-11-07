@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-11-07
+## [1.0.1] - 2026-11-07
 
 ### Added
 
@@ -12,7 +12,7 @@
 - Bổ sung kiểm thử tự động bằng `unittest` cho giỏ hàng và chức năng giảm giá.
 
 ### Fixed
-
+- Sửa search_by_title() để tìm kiếm không phân biệt chữ hoa/thường (#25).
 - Sửa lỗi giỏ hàng vẫn nhận đĩa thứ 21 dù giới hạn là 20 đĩa.
 - Sửa công thức giảm giá để trả về số tiền còn phải trả.
 - Từ chối phần trăm giảm giá ngoài khoảng 0–100 bằng `ValueError`.
