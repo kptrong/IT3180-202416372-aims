@@ -24,6 +24,20 @@ class TestCart(unittest.TestCase):
 
         self.assertAlmostEqual(cart.total_cost(), 30.0)
 
+    def test_total_cost_with_discount(self):
+        cart = Cart()
+        cart.add_dvd(DigitalVideoDisc("DVD A", cost=100.0))
 
+        self.assertAlmostEqual(
+            cart.total_cost_with_discount(20),
+            80.0,
+        )
+
+    def test_discount_percent_out_of_range(self):
+        cart = Cart()
+        cart.add_dvd(DigitalVideoDisc("DVD A", cost=100.0))
+
+        with self.assertRaises(ValueError):
+            cart.total_cost_with_discount(150)
 if __name__ == "__main__":
     unittest.main()
